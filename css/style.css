@@ -21,7 +21,7 @@ div.result {
     display: grid;
     align-items: center;
     margin-top: 2vw;
-    width: 150px;
+    width: 210px;
     height: 45px;
     background-color:  rgb(79, 228, 65);
 }
@@ -38,7 +38,7 @@ span {
 input {
     font-size: 22px;
     margin: 0 15px;
-    width: 100px;
+    width: 170px;
 }
 
 input[type="button"] {
@@ -52,25 +52,3 @@ input[type="button"]:hover {
 output {
     font-size: 26px;
 }
-
-
-.output {
-    background-color: bisque;
-    font-size: 22px;
-}
-
-
-.outputResult {
-    margin: 0 auto;
-    text-align: center;
-    background-color: #7ac4ad;
-    font-size: 40px;
-}
-
-.outputResult_2 {
-    margin: 0 auto;
-    text-align: center;
-    background-color: orange;
-    font-size: 25px;
-}
-
