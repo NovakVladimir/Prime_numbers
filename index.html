@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime numbers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <section class="firstSection">
+        <h1>Калькулятор простих чисел</h1>
+        <p>Даний калькулятор допоможе знайти просте число за його порядковим номером.</p>
+        <p>Пошук здійснюється в межах першого мільйона простих чисел.</p>
+    </section>
+    
+    <form>
+        <input type="number" id = "indexOfPrime" placeholder="Введіть ціле число більше 0, але менше 1 000 000">
+        <input type='button' value="Знайти" onclick="findAndShowPrimeNumber(getInput('indexOfPrime') - 1)">
+        <div class="result">
+            <output id = "result"></output>
+        </div>              
+    </form>
+
+    <section class="secondSection">
+        <p><span>Визначення:</span> просте число - це натуральне число (>0), яке має не більше двох різних дільників: 1 і саме число</p>
+        <p>Натуральні числа, крім 1, які не відносяться до простих чисел, називаються складеними.</p>
+        <p>Одиниця не являється ні простим числом, ні складеним.</p>
+        <p>Приклади простих чисел: 2, 3, 5, 7, 11, 13, 19, 23 і т.д.</p>
+        <p>Розглянемо, наприклад, число 7. Це число ділиться націло тільки на 1 і само на себе. Отже, число 7 є простим числом.</p>
+        <p>В той же час, число 6 простим не являється, так як крім 1 і самого себе націло ділиться також ще на 2 і на 3. Число 6 є складеним числом.</p>
+    </section>
+   
+</body>
+</html>

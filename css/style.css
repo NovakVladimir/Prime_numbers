@@ -1,0 +1,74 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 98vw;
+    height: 98vh;
+    margin: 0 auto;
+}
+
+body, section, div, p, span, input, output {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    padding: 1vw;
+}
+
+div.result {
+    margin-top: 2vw;
+    width: 150px;
+    height: 45px;
+    background-color:  rgb(79, 228, 65);
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+    color: red;
+}
+
+input {
+    font-size: 22px;
+    margin: 0 15px;
+    width: 100px;
+}
+
+input[type="button"] {
+    background-color: rgba(43, 139, 151, 0.103);
+}
+
+input[type="button"]:hover {
+    background-color: darksalmon;
+}
+
+output {
+    font-size: 24px;
+}
+
+
+.output {
+    background-color: bisque;
+    font-size: 22px;
+}
+
+
+.outputResult {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #7ac4ad;
+    font-size: 40px;
+}
+
+.outputResult_2 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: orange;
+    font-size: 25px;
+}
+
